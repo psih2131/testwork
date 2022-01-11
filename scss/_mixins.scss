@@ -1,0 +1,21 @@
+@mixin reset-list {
+  background: $bgColorYellow;
+  display: inline-block;
+  color: $bgColorDark;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 23px 130px;
+  cursor: pointer;
+  border: solid 1px $bgColorYellow;
+  transition: all ease 0.3s;
+
+  &:hover{
+  	background: $bgColorDark;
+  	color: $bgColorYellow;
+  	box-shadow:  0 0 30px rgba(0,0,0,0.4);
+  	transition: all ease 0.3s;
+  	text-shadow: 0 0 50px $bgColorYellow;
+  	transform: translateX(20px);
+  }
+}
+

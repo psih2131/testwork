@@ -1,0 +1,58 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+a{
+	text-decoration:none;
+
+	&:hover{
+		text-decoration:none;
+	}
+}
+li{
+	list-style-type: none;
+}
+button{
+	cursor: pointer;
+	outline:0 none !important;
+	
+}
+input{
+	outline:0 none !important;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: $mainFont;
+}
+button{
+	font-family: $mainFont;
+}
+
+select{
+	cursor: pointer;
+	outline:0 none !important;
+	font-family: $mainFont;
+}
+textarea{
+	outline:0 none !important;
+	font-family: $mainFont;
+}
+body{
+	background: #fff;
+	font-family: $mainFont;
+}
+p{
+	font-size: 16px;
+	margin: 0;
+	font-family: $mainFont;
+}
+ul{
+	margin-bottom: 0;
+}
+.app{
+	overflow: hidden;
+}
+
+
+

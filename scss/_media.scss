@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1200px){
+	section{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.content{
+		width: 100%;
+	}
+	.our-lightpaper{
+		background: $bgColorBlue;
+	}
+	.our-lightpaper__image{
+		right: -120px;
+	}
+}
+@media only screen and (max-width: 1000px){
+	.service{
+		.content{
+			padding: 136px 0;
+		}
+	}
+	.service__element-wrapper{
+		padding: 50px 0;
+	}
+	.our-lightpaper__image{
+		right: -310px;
+	}
+}
+@media only screen and (max-width: 800px){
+
+    .our-lightpaper__image{
+		right: -180px;
+		width: 464px;
+		top: -40px;
+	}
+	.our-lightpaper__content-box{
+		width: 100%;
+		display: block;
+	}
+	.our-lightpaper__title{
+		width: 200px;
+	}
+	.our-lightpaper__subtitle{
+		width: 200px;
+	}
+	.our-lightpaper__btn-row{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 0 18px;
+	}
+}
+@media only screen and (max-width: 650px){
+	.main-title{
+		font-size: 30px;
+		&:before{
+			width: 19px;
+			height: 20px;
+			top: -45px;
+		}
+	}
+	.service-element {
+	    width: 100%;
+	}
+	.service__element-wrapper{
+		padding: 25px 0;
+	}
+	.service__element-box{
+		margin: 25px 0;
+	}
+	.service-element__icon{
+		height: 36px;
+	}
+	.service-element__title{
+		font-size: 22px;
+	}
+	.service-element__description{
+		font-size: 16px;
+		margin-top: 35px;
+	}
+	.service:before{
+		top: 137px;
+	}
+	.our-lightpaper{
+		margin-top: 0;
+
+	    .content{
+	    	padding-top: 195px;
+	    }
+	}
+	.service {
+		.content{
+			padding-bottom: 35px;
+		}
+	}
+	.our-lightpaper__title{
+		font-size: 22px;
+	}
+	.our-lightpaper__subtitle{
+		margin-top: 45px;
+		font-size: 16px;
+	}
+	.our-lightpaper__content-box{
+		padding-bottom: 65px;
+
+		&:before{
+			width: 197px;
+			height: 229px;
+			left: -30px;
+		}
+	}
+	.our-lightpaper__btn-row{
+		bottom: -29px;
+	}
+	.btn-v1{
+	  font-size: 16px;
+	  font-weight: 700;
+	  padding: 18px;
+	  width: 100%;
+	  text-align: center;
+	  cursor: pointer;
+	  border: solid 1px $bgColorYellow;
+	}
+	.something-search .content{
+		padding-top: 135px;
+		padding-bottom: 400px;
+	}
+}
